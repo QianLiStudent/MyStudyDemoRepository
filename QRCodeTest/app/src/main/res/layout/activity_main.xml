@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_scanQRCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描二维码"
+        android:textSize="22sp"
+        android:padding="15dp"
+        ></Button>
+
+    <TextView
+        android:id="@+id/tv_resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结果:"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_scanQRCode"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_below="@id/tv_resultText"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入内容"
+        android:textSize="22sp"
+        android:maxLines="1"
+        android:layout_below="@id/tv_message"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        ></EditText>
+
+    <Button
+        android:id="@+id/btn_createQRCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建二维码"
+        android:textSize="22sp"
+        android:padding="15dp"
+        android:layout_below="@id/et_message"
+        ></Button>
+
+</RelativeLayout>
