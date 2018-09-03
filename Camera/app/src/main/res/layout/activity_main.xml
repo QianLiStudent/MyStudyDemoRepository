@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/take_photo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="拍照"
+        android:textSize="22sp"
+        ></Button>
+    <Button
+        android:id="@+id/choose_photo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="选择图片"
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        ></Button>
+    <Button
+        android:id="@+id/record_video_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="录制视频"
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        ></Button>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="15dp"
+        ></ImageView>
+</LinearLayout>
