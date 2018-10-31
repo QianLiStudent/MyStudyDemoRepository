@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/h15"
+        android:layout_marginLeft="@dimen/w10"
+        android:layout_marginRight="@dimen/w15"
+        android:layout_marginBottom="@dimen/h5">
+        <ImageView
+            android:id="@+id/fragment_shop_iv1"
+            android:layout_width="@dimen/w25"
+            android:layout_height="@dimen/h18"
+            android:background="@mipmap/icon_drawer"></ImageView>
+        <TextView
+            android:id="@+id/fragment_shop_tv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shop"
+            android:textStyle="bold"
+            android:textSize="@dimen/h16"
+            android:layout_centerHorizontal="true"></TextView>
+
+        <ImageView
+            android:id="@+id/fragment_shop_iv2"
+            android:layout_width="@dimen/w45"
+            android:layout_height="@dimen/h45"
+            android:background="@mipmap/icon_main_heart"
+            android:layout_below="@id/fragment_shop_iv1"
+            android:layout_marginTop="@dimen/h5"
+            android:layout_marginLeft="@dimen/w15"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height='wrap_content'
+            android:text="@string/shop"
+            android:textStyle="bold"
+            android:textSize="@dimen/h22"
+            android:layout_below="@id/fragment_shop_iv2"
+            android:layout_marginTop="@dimen/h5"
+            android:layout_marginLeft="@dimen/w15"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/h5">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w20"
+            android:layout_marginRight="@dimen/w20">
+            <ImageView
+                android:id="@+id/fragment_shop_iv3"
+                android:layout_width="@dimen/w30"
+                android:layout_height="@dimen/h28"
+                android:layout_marginRight="@dimen/w5"
+                android:background="@mipmap/fragment_promotion_img"></ImageView>
+            <EditText
+                android:id="@+id/fragment_shop_et1"
+                android:layout_width="@dimen/w218"
+                android:layout_height="wrap_content"
+                android:hint="@string/find_medicine"
+                android:textSize="@dimen/h12"
+                android:maxLines="1"
+                android:maxLength="50"
+                android:paddingTop="@dimen/h5"
+                android:paddingBottom="@dimen/h5"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/fragment_shop_iv3"></EditText>
+            <ImageView
+                android:id="@+id/fragment_shop_iv4"
+                android:layout_width="@dimen/w15"
+                android:layout_height="@dimen/h12"
+                android:background="@mipmap/icon_promotion_clear"
+                android:layout_marginLeft="@dimen/w8"
+                android:layout_toRightOf="@id/fragment_shop_et1"
+                android:layout_centerVertical="true"></ImageView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/fragment_shop_tfl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        zhy:max_select="5"
+        android:padding="20dp">
+    </com.zhy.view.flowlayout.TagFlowLayout>
+
+</LinearLayout>

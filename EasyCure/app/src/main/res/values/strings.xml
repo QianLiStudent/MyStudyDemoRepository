@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">EasyCure</string>
+    <string name="main_title">We work for and for you 24h daily</string>
+    <string name="main_message">Your health will be guarded by us</string>
+    <string name="call_us">Call Us</string>
+    <string name="check_our_shop">Check Our Shop</string>
+    <string name="health_information">Health Information</string>
+    <string name="something_you_want">Something You Want</string>
+    <string name="forgot_pwd">Forgot Password ?</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="no_account">Don\'t have an account yet ? </string>
+    <string name="sign_up">  Sign Up</string>
+    <string name="sign_up_big">SIGN UP</string>
+    <string name="health_knowledge">Health Knowledge</string>
+    <string name="classify">Classify</string>
+    <string name="about_us">About Us</string>
+    <string name="about_us_big">ABOUT US</string>
+    <string name="contact">Contact</string>
+    <string name="contact_big">CONTACT</string>
+    <string name="where">Where</string>
+    <string name="where_big">WHERE</string>
+    <string name="easy_cure">Easy Cure</string>
+    <string name="who_we_are">Who We Are ?</string>
+    <string name="introduce_us">We are an individual developer and currently studying
+        at the Zhuhai College of Beijing Institute of Technology, a student at the
+        School of Computer Science. The production of the software was completed by
+        2 people and is currently version 1.0.</string>
+    <string name="event_name">Event Name</string>
+    <string name="event">Event</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="find_article">Find the article</string>
+    <string name="schedule">Schedule</string>
+    <string name="schedule_big">SCHEDULE</string>
+    <string name="plan">Plan</string>
+    <string name="shop">Shop</string>
+    <string name="medicine_advice">Medicine Advice</string>
+    <string name="eyes_advice">Eyes Advice</string>
+    <string name="food_advice">Food Advice</string>
+    <string name="sports_advice">Sports Advice</string>
+    <string name="sleep_advice">Sleep Advice</string>
+    <string name="check_the_body_advice">Check The Body Advice</string>
+    <string name="tea_drinking_advice">Tea Drinking Advice</string>
+    <string name="main">MAIN</string>
+    <string name="prompt">Prompt</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_memo">Are you sure to delete this memo?</string>
+    <string name="successfully_deleted">Successfully Deleted</string>
+    <string name="successfully_updated">Successfully Updated</string>
+    <string name="successfully_added">Successfully Added</string>
+    <string name="nothing_to_show">nothing to show</string>
+    <string name="find_medicine">Find medicine</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="captcha">Captcha</string>
+    <string name="get_captcha">Get Captcha</string>
+    <string name="mine">Mine</string>
+    <string name="more">More</string>
+    <string name="wallet">Wallet</string>
+    <string name="credit">Credit</string>
+    <string name="security_settings">Security Settings</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="version_information">Version Information</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="signout_dialog_title">Prompt</string>
+    <string name="signout_dialog_message">Are you sure you want to log out?</string>
+    <string name="next">NEXT</string>
+    <string name="username">Username</string>
+    <string name="username_can_not_be_empty">Username can not be empty</string>
+    <string name="password_can_not_be_empty">Password can not be empty</string>
+    <string name="password_length">Password cannot be less than 6 digits</string>
+    <string name="get_code_error">The network speed is slow, please try again later</string>
+    <string-array name="security_question_array">
+        <item>What is your mother\'s name? </item>
+        <item>What is your father\'s name?</item>
+        <item>Your spouse\'s name is?</item>
+        <item>Where is your birthplace? </item>
+        <item>What is the name of your high school class teacher?</item>
+        <item>What is the name of your junior high school teacher?</item>
+        <item>What is the name of your primary school teacher?</item>
+        <item>What is your student number (or job number)?</item>
+        <item>When is your father\'s birthday?</item>
+        <item>When is your mother\'s birthday?</item>
+        <item>When is your birthday?</item>
+        <item>When is your spouse\'s birthday?</item>
+    </string-array>
+    <string name="finish_enroll">Finish Registration</string>
+    <string name="security_not_empty">Security number cannot be empty</string>
+    <string name="secret_answer_not_empty">Secret answer cannot be empty</string>
+    <string name="phone_number_not_empty">Phone number can not be blank</string>
+    <string name="wrong_pwd">Wrong Password</string>
+    <string name="security_answer">Security Answer</string>
+    <string name="security_phone_num">Security Phone Num</string>
+    <string name="retrieve_password">Retrieve Password</string>
+    <string name="find_back_account">You can choose to send a verification code to the previously bound secure
+        phone number or fill in the secret question to retrieve the account.</string>
+    <string name="send">Send</string>
+    <string name="account_not_empty">Account cannot be empty</string>
+    <string name="account_is_empty">Account does not exist</string>
+    <string name="account_is_exist">Account is exist</string>
+    <string name="check_successful">Successful verification</string>
+    <string name="sms_send">SMS has been sent</string>
+    <string name="verification_failed">Verification failed</string>
+    <string name="reset_account">Reset Account</string>
+    <string name="reset_account_text">The security number can be successfully modified after passing the verification.</string>
+    <string name="reset">Reset</string>
+    <string name="some_info_empty">Please complete the information</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_empty_or_inconsistent">Password is empty or inconsistent</string>
+    <string name="new_security_phone_num">New security phone num</string>
+    <string name="reset_successful">Reset Successful</string>
+    <string name="login_num">The number you are logged in to</string>
+</resources>
